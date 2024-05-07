@@ -1,7 +1,7 @@
 <script>
   import Profile from "$lib/Profile.svelte";
   import { fade, slide } from "svelte/transition";
-  import S_loading from "$lib/S_Loading.svelte";
+  import S_Loading from "$lib/S_Loading.svelte";
   import Seo from "$lib/Seo.svelte";
   let api_response = [];
 
@@ -50,7 +50,7 @@
         <!-- svelte-ignore a11y-no-static-element-interactions -->
         {#if loading}
           <div class="loading">
-            <S_loading color="#1c1c1c" />
+            <S_Loading color="#1c1c1c" />
           </div>
         {:else}
           <i class="ri-search-line" on:click={search}></i>
