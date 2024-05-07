@@ -1,7 +1,7 @@
 <script>
   import Profile from "$lib/Profile.svelte";
   import { fade, slide } from "svelte/transition";
-  import S_loading from "$lib/S_loading.svelte";
+  import S_loading from "$lib/S_Loading.svelte";
   import Seo from "$lib/Seo.svelte";
   let api_response = [];
 
